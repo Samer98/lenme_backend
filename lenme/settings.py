@@ -38,9 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "rest_framework",
-    'loans',
+    'loanRequest',
     'investor',
-    'borrower'
+    'borrower',
+    'installment',
+    'investorOffer',
+    'loan'
+
 ]
 
 MIDDLEWARE = [

@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('investor/',include("investor.urls")),
     path('borrower/',include("borrower.urls")),
-    path('loans/',include("loans.urls")),
+    path('loanRequest/',include("loanRequest.urls")),
+    path('loan/',include("loan.urls")),
 ]
