@@ -4,7 +4,7 @@ from investor.models import Investor
 from .models import LoanRequest
 
 
-class LoanSerializers(serializers.ModelSerializer):
+class LoanRequestSerializer(serializers.ModelSerializer):
     class Meta:
         model = LoanRequest
         fields = ['id','borrower','loan_amount',

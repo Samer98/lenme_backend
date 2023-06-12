@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework.mixins import CreateModelMixin, DestroyModelMixin, RetrieveModelMixin , UpdateModelMixin
 from .models import Investor
-from .serializers import InvestorSerializer
+from .serializer import InvestorSerializer
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
 
 

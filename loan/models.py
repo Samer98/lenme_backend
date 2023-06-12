@@ -17,7 +17,7 @@ class Loan(models.Model):
         ('Completed', 'Completed'),
 
     )
-    status = models.CharField(choices=status_choices, default='Pending', max_length=10, editable=False)
+    status = models.CharField(choices=status_choices, default='Funded', max_length=10, editable=False)
 
     class Meta:
         db_table = "loan"

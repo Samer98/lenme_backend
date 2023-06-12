@@ -22,5 +22,7 @@ urlpatterns = [
     path('investor/',include("investor.urls")),
     path('borrower/',include("borrower.urls")),
     path('loanRequest/',include("loanRequest.urls")),
+    path('investorOffer/',include("investorOffer.urls")),
+    path('installment/',include("installment.urls")),
     path('loan/',include("loan.urls")),
 ]

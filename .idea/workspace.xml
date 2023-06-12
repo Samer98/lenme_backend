@@ -2,39 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec6155a6-ad88-4a2e-9d19-1f8b4ce71691" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installment/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investorOffer/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installments/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/installment/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installments/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/installment/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installments/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/installment/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installments/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/installment/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installments/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/installment/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installments/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/installment/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installments/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/installment/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenme/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lenme/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/installment/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/installment/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/investor/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/investor/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/investor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/investor/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/investorOffer/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/investorOffer/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/investorOffer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/investorOffer/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenme/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lenme/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0002_borrower_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0002_borrower_type.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0003_remove_borrower_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0003_remove_borrower_type.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0004_alter_loan_investor.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0004_alter_loan_investor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0005_alter_loan_investor.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0005_alter_loan_investor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0006_alter_loan_investor.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0006_alter_loan_investor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0007_alter_loan_annual_interest_rate_alter_loan_lenme_fee.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0007_alter_loan_annual_interest_rate_alter_loan_lenme_fee.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0008_remove_investor_user_remove_payment_loan_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0008_remove_investor_user_remove_payment_loan_and_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0009_alter_loan_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0009_alter_loan_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0010_alter_loan_status.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0010_alter_loan_status.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0011_alter_loan_loan_period.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0011_alter_loan_loan_period.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0012_alter_loan_annual_interest_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0012_alter_loan_annual_interest_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/0013_alter_loan_loan_amount.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/0013_alter_loan_loan_amount.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/loan/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/loan/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loanRequest/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loanRequest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/loanRequest/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
